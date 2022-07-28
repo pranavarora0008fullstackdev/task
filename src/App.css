@@ -1,5 +1,10 @@
-.App {
+
+/* .App {
   text-align: center;
+} */
+.Container{
+  border: 1px solid whitesmoke;
+  background-color: rgba(128, 128, 128, 0.064);
 }
 
 .App-logo {
@@ -35,4 +40,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+*input:required {
+  border: 1px dashed red;
+}
+.Container.button{
+  text-align: center;
+}
+.dropdown{
+  width: 200px;
+}
+.button{
+  text-align: center;
+}
+.form-label{
+  margin-top: 16px;
 }
